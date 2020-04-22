@@ -1,5 +1,7 @@
 from time import sleep
 import numpy as np
+from sklearn.naive_bayes import GaussianNB
+from sklearn import metrics
 
 def loadTrainingData():
     train_fd001 = np.genfromtxt("Data/train_FD001.txt")
